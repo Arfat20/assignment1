@@ -380,6 +380,12 @@ padding: 12px;
 border-radius: 0px 50px 50px 0px;
 background: #F00;
 border: none;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+text-transform: capitalize;
 }
 footer{
   background-color: #070211;
