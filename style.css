@@ -69,6 +69,7 @@ color: #070211;
 font-family: Inter;
 font-size: 48px;
 font-weight: 700;
+margin-bottom: 48px;
 }
 .categories-img{
   width: 802px;
@@ -137,10 +138,13 @@ font-size: 32px;
 font-style: normal;
 font-weight: 600;
 text-transform: capitalize;
-background-color: rgba(251, 181, 181, 0.999);
-justify-content: center;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+/* fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+justify-content: center; */
 align-items: center;
 }
+
 .vanue-all{
   padding-top: 100px;
 }
@@ -177,5 +181,130 @@ border-radius: 8px;
 background: #F00;
 border: none;
 margin-top: 48px;
+margin-bottom: 126px;
 }
 
+
+.holidays{
+width: 80%;
+background: #FFF;
+margin: 0 auto;
+margin-top: 120px;
+}
+.holidays-text{
+  text-align: center;
+
+}
+.holidays-head{
+color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+
+}
+.holidays-title{
+color: #070211;
+font-family: Merriweather;
+font-size: 50px;
+font-weight: 900;
+}
+.holidays-para{
+  margin-top: 28px
+  wid 80%
+}
+.holidays-color{
+  color: #F00;
+}
+
+.img-grp {
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-grp img {
+    width: 30%; 
+    border-radius: 8px;
+
+}
+.protfolio-text{
+text-align: left;
+margin-top: 120px;
+
+  
+}
+.protfolio-head{
+color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.protfolio-title{
+margin: 15px 0 20px;
+color: #070211;
+font-family: Merriweather;
+font-size: 28px;
+font-weight: 700;
+text-transform: capitalize;
+}
+.protfolio-para{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 14px;
+font-weight: 200;
+line-height: 32px;
+}
+.protfolio-imgs img{
+  width: 32%;
+  gap: 8px;
+}
+.protfolio-imgs{
+  /* display: flex; */
+  margin-top: 15px;
+}
+.subscribe{
+text-align: center;
+margin-top: 120px;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-text{
+  padding: 80px 0;
+}
+.subscribe-title{
+color: #070211;
+
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+text-transform: capitalize;
+}
+.subscribe-para{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+.subscribe-form{
+  margin-top: 48px;
+      display: flex;
+    justify-content: center;
+    
+  
+}
+.subscribe-mail{
+padding: 12px;
+border-radius: 50px 0px 0px 50px;
+background: #FFF;
+border: none;
+}
+.subscribe-btn{
+  padding: 12px;
+ border-radius: 0px 50px 50px 0px;
+background: #F00;
+border: none;
+}
