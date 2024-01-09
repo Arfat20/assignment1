@@ -180,6 +180,12 @@ background: #F00;
 border: none;
 margin-top: 48px;
 margin-bottom: 126px;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
 }
 .new-offer{
   display: flex;
@@ -282,14 +288,14 @@ font-weight: 900;
 .holiday-img-1{
   position: relative;
   bottom: -130px;
-    left: 70px;
+  left: 70px;
 }
 .holiday-img-2 img{
   height: 150px;
   width: 150px;
   position: relative;
-    left: 138px;
-    top: 81px;
+  left: 179px;
+  top: 133px;
 }
 
 
@@ -325,7 +331,9 @@ line-height: 32px;
 .protfolio-imgs img{
   width: 32%;
   gap: 8px;
+  
 }
+
 .protfolio-imgs{
   /* display: flex; */
   margin-top: 15px;
