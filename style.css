@@ -10,7 +10,7 @@
 }
 
 .banner {
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner.png');
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/Banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -78,7 +78,7 @@ margin-bottom: 48px;
 
 }
 .welcome-banner{
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/vectorrr.png');
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/vectorrr.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 80%;
@@ -160,9 +160,9 @@ align-items: center;
 display: flex;
 text-align: center;
 font-family: Inter;
-font-size: 32px;
+font-size: 25px;
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 text-transform: capitalize;
 
 }
