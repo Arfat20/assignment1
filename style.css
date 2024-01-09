@@ -181,14 +181,63 @@ border: none;
 margin-top: 48px;
 margin-bottom: 126px;
 }
+.new-offer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 120px;
+  
+}
 
+
+.new-offer-head{
+color: #F00;
+/* text-align: left; */
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.new-offer-title{
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.new-offer-para{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+margin-bottom: 43px;
+}
+.new-offer-img{
+  padding: 10px;
+  border: 7px solid red;
+  border-radius: 100%;
+  display: inline-block;
+  max-resolution: 0px 120px;
+  
+}
+.new-offer-img img{
+  width: 300px;
+  height: 300px;
+  max-width: 100%;
+}
+.new-offer-year{
+color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
 
 .holidays{
-width: 80%;
 background: #FFF;
 margin: 0 auto;
 margin-top: 120px;
 }
+
 .holidays-text{
   text-align: center;
 
@@ -207,8 +256,9 @@ font-size: 50px;
 font-weight: 900;
 }
 .holidays-para{
-  margin-top: 28px
-  wid 80%
+  margin-top: 28px;
+  justify-content: center;
+
 }
 .holidays-color{
   color: #F00;
@@ -220,6 +270,26 @@ font-weight: 900;
  
   display: flex;
   justify-content: space-between;
+}
+.img-red{
+  border-radius: 16px 0px 16px 16px;
+  background: #F00;
+  height: 200px ;
+}
+.img-grp img{
+  width:33% ;
+}
+.holiday-img-1{
+  position: relative;
+  bottom: -130px;
+    left: 70px;
+}
+.holiday-img-2 img{
+  height: 150px;
+  width: 150px;
+  position: relative;
+    left: 138px;
+    top: 81px;
 }
 
 
@@ -333,23 +403,3 @@ line-height: 40px;
   background: rgba(255, 255, 255, 0.15);
 }
 
-.img-red{
-  border-radius: 16px 0px 16px 16px;
-  background: #F00;
-  height: 200px ;
-}
-.img-grp img{
-  width:33% ;
-}
-.holiday-img-1{
-  position: relative;
-  bottom: -130px;
-    left: 70px;
-}
-.holiday-img-2 img{
-  height: 150px;
-  width: 150px;
-  position: relative;
-    left: 138px;
-    top: 81px;
-}
