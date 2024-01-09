@@ -78,7 +78,7 @@ margin-bottom: 48px;
 
 }
 .welcome-banner{
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/vectorrr.png');
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/Vectorrr.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 80%;
@@ -139,9 +139,7 @@ font-style: normal;
 font-weight: 600;
 text-transform: capitalize;
 border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
-/* fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-justify-content: center; */
+background-image: url(./images/Vector.svg);
 align-items: center;
 }
 
@@ -215,18 +213,16 @@ font-weight: 900;
 .holidays-color{
   color: #F00;
 }
-
+.holidays-img{
+   margin-top: 65px;
+}
 .img-grp {
-  margin-top: 65px;
+ 
   display: flex;
   justify-content: space-between;
 }
 
-.img-grp img {
-    width: 30%; 
-    border-radius: 8px;
 
-}
 .protfolio-text{
 text-align: left;
 margin-top: 120px;
@@ -275,7 +271,6 @@ background: rgba(255, 0, 0, 0.05);
 }
 .subscribe-title{
 color: #070211;
-
 font-family: Merriweather;
 font-size: 48px;
 font-style: normal;
@@ -291,8 +286,8 @@ line-height: 32px;
 }
 .subscribe-form{
   margin-top: 48px;
-      display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
     
   
 }
@@ -336,4 +331,25 @@ line-height: 40px;
 }
 .line{
   background: rgba(255, 255, 255, 0.15);
+}
+
+.img-red{
+  border-radius: 16px 0px 16px 16px;
+  background: #F00;
+  height: 200px ;
+}
+.img-grp img{
+  width:33% ;
+}
+.holiday-img-1{
+  position: relative;
+  bottom: -130px;
+    left: 70px;
+}
+.holiday-img-2 img{
+  height: 150px;
+  width: 150px;
+  position: relative;
+    left: 138px;
+    top: 81px;
 }
